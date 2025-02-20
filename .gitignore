@@ -62,3 +62,5 @@ __pycache__/
 */migrations/* >> .gitignore/migrations/__init__.py
 */migrations/*
 */migrations/* >> .gitignore/migrations/__init__.py
+*/migrations/*
+*/migrations/* >> .gitignore/migrations/__init__.py
