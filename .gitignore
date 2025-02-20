@@ -60,3 +60,5 @@ docker-compose.override.yml
 __pycache__/
 */migrations/*
 */migrations/* >> .gitignore/migrations/__init__.py
+*/migrations/*
+*/migrations/* >> .gitignore/migrations/__init__.py
