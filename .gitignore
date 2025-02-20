@@ -65,3 +65,5 @@ __pycache__/
 */migrations/*
 */migrations/* >> .gitignore/migrations/__init__.py
 __pycache__/
+venv/
+env/
