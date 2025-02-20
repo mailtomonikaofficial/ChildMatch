@@ -1,0 +1,62 @@
+# Byte-compiled / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Django-specific files
+db.sqlite3  # Ignore SQLite database
+*.log       # Ignore log files
+*.pot       # Ignore translation files
+
+# Secret key & environment variables
+.env
+.env.local
+.env.production
+config/settings/local.py  # If you have different settings for production/local
+
+# Migrations (optional, if you regenerate often)
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py  # Keep the init file
+
+# Static & Media files (if collected or auto-generated)
+staticfiles/
+media/
+static/
+*.woff
+*.woff2
+*.ttf
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE / Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore MacOS system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled C files
+*.so
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+*.cover
+coverage.xml
+.cache
+
+# Ignore Docker files
+docker-compose.override.yml
+__pycache__/
+*/migrations/*
+*/migrations/* >> .gitignore/migrations/__init__.py
